@@ -9,7 +9,7 @@ Extract text from previously visited sites based on your Chrome history.
 2. Pythonの実行環境をあらかじめ用意してください。
     またコードを参照して必要なライブラリをインストールしてください。
 3. 以下のようにして実行。
-    > python AccessChromeHistory.py {URL_LIST_CSVで指定したファイル名}
+    > python AccessChromeHistory.py
 4. ヘッドレスでの実行。
     HEADLESSにWebを自動的に開きながら（False）、Webは開かず（True）。
 5. 自動ログインしたいサイトがある場合はcookie情報を与える。
