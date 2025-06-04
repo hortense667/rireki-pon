@@ -6,7 +6,7 @@ Extract text from previously visited sites based on your Chrome history.
 　まず、Pythonの実行環境を用意する必要がある（もちろんすでに用意されている人は飛ばしてください）。Windowsの場合、以下の手順で準備できる。
 
 　1. Pythonのインストール
-　{link https://www.python.org/downloads/;Python公式サイト}から最新版をダウンロードしてインストール（Anacondaという便利なPythonのパッケージをまとめてインストールできるものもあるので、そちらを使ってもよい）。インストール時に「Add Python to PATH」にチェックを入れるのを忘れずに。
+　 Python公式サイト（https://www.python.org/downloads/）から最新版をダウンロードしてインストール（Anacondaという便利なPythonのパッケージをまとめてインストールできるものもあるので、そちらを使ってもよい）。インストール時に「Add Python to PATH」にチェックを入れるのを忘れずに。
 
 　2. 必要なライブラリのインストール
 　コマンドプロンプトを開いて、以下のコマンドを実行する（他も必要に応じてインストールしてください）。
@@ -18,10 +18,10 @@ Extract text from previously visited sites based on your Chrome history.
 　次に、Chromeの履歴を取得するための拡張機能をインストールする。
 
 　1. Quick Chrome History Export
-　Chrome Web Storeから{link https://chrome.google.com/webstore/detail/quick-chrome-history-export/ocgccfelbchfdfplphnhagkdpicpbmjf;Quick Chrome History Export}をインストール。この拡張機能は、Chromeの履歴をCSV形式でエクスポートできる。
+　Chrome Web StoreからQuick Chrome History Export（https://chrome.google.com/webstore/detail/quick-chrome-history-export/ocgccfelbchfdfplphnhagkdpicpbmjf）をインストール。この拡張機能は、Chromeの履歴をCSV形式でエクスポートできる。
 
  2. Cookie Editor（必要な場合）
-　自動ログインが必要なサイトがある場合は、{link https://chromewebstore.google.com/detail/cookie-editor/ookdjilphngeeeghgngjabigmpepanpl?utm_source=ext_app_menu;Cookie Editor}をインストール。この拡張機能は、cookie情報をjson形式でエクスポートできる。
+　自動ログインが必要なサイトがある場合は、Cookie Editor（https://chromewebstore.google.com/detail/cookie-editor/ookdjilphngeeeghgngjabigmpepanpl?utm_source=ext_app_menu）をインストール。この拡張機能は、cookie情報をjson形式でエクスポートできる。
 
 ## 事前のコードの設定と書き換え
 
